@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "cover_img": "https://i.postimg.cc/d36TBs9Q/Rectangle-2.png",
+    "course_title": "Introduction to Programming",
+    "description": "Learn programming basics, including variables, control structures, and algorithms. Gain hands-on experience through coding exercises. Perfect for beginners entering the world of programming.",
+    "price": 4999,
+    "credit_hour": 3
+  },
+  {
+    "id": 2,
+    "cover_img": "https://i.postimg.cc/FRnMJcMh/Rectangle-2-1.png",
+    "course_title": "Web Development Fundamentals",
+    "description": "Dive into web development with HTML, CSS, and JavaScript. Build responsive, interactive websites. Ideal for aspiring web developers and designers seeking a solid foundation.",
+    "price": 7999,
+    "credit_hour": 4
+  },
+  {
+    "id": 3,
+    "cover_img": "https://i.postimg.cc/XY4nWK3P/Rectangle-2-2.png",
+    "course_title": "Data Science Essentials",
+    "description": "Explore data analysis, machine learning, and statistics. Acquire skills in data manipulation, visualization, and interpretation. Perfect for those entering the field of data science.",
+    "price": 8999,
+    "credit_hour": 5
+  },
+  {
+    "id": 4,
+    "cover_img": "https://i.postimg.cc/WzN7jfW3/Rectangle-2-3.png",
+    "course_title": "Graphic Design Basics",
+    "description": "Introduction to graphic design tools, techniques, and principles. Explore creativity through color theory and layout design. Suitable for beginners interested in visual design.",
+    "price": 5999,
+    "credit_hour": 3
+  },
+  {
+    "id": 5,
+    "cover_img": "https://i.postimg.cc/BbjXxTtp/Rectangle-2-4.png",
+    "course_title": "Business Management Fundamentals",
+    "description": "Explore business concepts, management, and organizational behavior. Learn strategic planning, leadership, and communication. Perfect for those understanding fundamental business management principles.",
+    "price": 6999,
+    "credit_hour": 4
+  },
+  {
+    "id": 6,
+    "cover_img": "https://i.postimg.cc/D01mj2d4/Rectangle-2-5.png",
+    "course_title": "Cybersecurity Fundamentals",
+    "description": "Learn cybersecurity, encryption, and network security basics. Understand common cyber threats and vulnerabilities. Ideal for those entering the field of cybersecurity.",
+    "price": 9999,
+    "credit_hour": 5
+  },
+  {
+    "id": 7,
+    "cover_img": "https://i.postimg.cc/C54Snds7/Rectangle-2-6.png",
+    "course_title": "Photography Basics",
+    "description": "Introduction to photography equipment, composition, and editing. Explore creative expression through visual storytelling. Suitable for beginners interested in photography fundamentals.",
+    "price": 4999,
+    "credit_hour": 3
+  },
+  {
+    "id": 8,
+    "cover_img": "https://i.postimg.cc/8k42W8VZ/Rectangle-3.png",
+    "course_title": "Mobile App Development",
+    "description": "Develop mobile applications for iOS and Android platforms. Gain skills in app design, development, and deployment. Ideal for aspiring mobile app developers.",
+    "price": 7999,
+    "credit_hour": 4
+  },
+  {
+    "id": 9,
+    "cover_img": "https://i.postimg.cc/Pqb3jZXS/Rectangle-3-1.png",
+    "course_title": "Marketing Strategies",
+    "description": "Explore effective marketing strategies for various industries. Understand market trends, branding, and customer engagement. Suitable for those interested in marketing fundamentals.",
+    "price": 6999,
+    "credit_hour": 3
+  }
+]
