@@ -15,13 +15,25 @@ function App() {
   
   const handlePrice = (cprice, ctitle, credit_hour) => {
     if (!title.includes(ctitle)) {
-      setTitle(newTitles => [...newTitles, ctitle]);
-      setPrice(newPrice => newPrice + cprice);
-      setCredit(newCredit => newCredit + credit_hour);
+      const newTotalCredit = credit + credit_hour;
+  
+      // Ensure the new total credits won't go below zero
+      const limitedTotalCredit = Math.max(newTotalCredit, 0);
+  
+      // Only update state if the credits are within the limit
+      if (limitedTotalCredit <= 20) {
+        setTitle(newTitles => [...newTitles, ctitle]);
+        setPrice(newPrice => newPrice + cprice);
+        setCredit(limitedTotalCredit);
+      } else {
+        console.log(`Credits limit reached.`);
+      }
     } else {
       console.log(`Title "${ctitle}" is already selected.`);
     }
   };
+  
+  
   
 
 
