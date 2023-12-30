@@ -9,7 +9,7 @@ const Courses = ({handlePrice}) => {
         .then(data => setCourses(data))
     },[])
     return (
-        <div className=" lg:w-3/4 md:grid md:grid-cols-3 md:bg-slate-200">
+        <div className=" lg:w-3/4 md:grid md:grid-cols-3 md:bg-slate-200 p-3 ">
             
             {
                 courses.map(course => <Course key={course.id} course={course} handlePrice={handlePrice}></Course>)
