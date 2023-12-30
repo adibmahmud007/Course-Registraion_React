@@ -8,7 +8,7 @@ const Course = ({ course,handlePrice }) => {
     console.log(course, 'data of course');
     return (
         // main div
-        <div className='md:bg-white md:p-2 md:rounded-xl md:m-2 m-3 rounded-2xl bg-white pb-2' >
+        <div className=' md:bg-white md:p-2 md:rounded-xl md:m-2 m-3 rounded-2xl bg-white pb-2' >
             <div>
                 {/* Div for the course cover */}
                 <div>

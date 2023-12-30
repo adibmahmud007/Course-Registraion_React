@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 const Credits = ({price,credit,title}) => {
     
     return (
-        <div className=" lg:m-3 lg:p-3 rounded-2xl bg-white mt-4 ">
+        <div className=" lg:m-3 lg:p-3 lg:pt-4 rounded-2xl bg-white mt-4 ">
            <div className="lg:border-b-2 ">
            <h3 className="text-blue-500 lg:font-bold lg:text-center lg:text-xl lg:mt-3 lg:pb-5 font-bold text-center p-4 border-b-2 text-xl">Credits Hour Remaining {20-credit} hour</h3>
            </div>
